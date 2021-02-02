@@ -1,2 +1,3 @@
 rootProject.name = 'outlineSpringBootConfig'
+include 'SpringBootRunnableJAR'
 
