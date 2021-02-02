@@ -1,13 +1,19 @@
 plugins {
     id 'war'
+
 }
 
-sourceCompatibility = 1.8
+//sourceCompatibility = 11
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.8.RELEASE'
+    //compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.8.RELEASE'
+    //implementation group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: '2.3.11.RELEASE'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '2.3.11.RELEASE', ext: 'pom'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.11.RELEASE'
+
 }
