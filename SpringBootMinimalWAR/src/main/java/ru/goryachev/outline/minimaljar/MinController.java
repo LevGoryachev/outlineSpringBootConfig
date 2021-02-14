@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MinController {
     @GetMapping("/one")
     public String message() {
-        return "Message by Lev";
+        return "Message by Lev: RestController works, Minimal WAR APP";
     }
 }
