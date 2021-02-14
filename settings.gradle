@@ -1,4 +1,5 @@
 rootProject.name = 'outlineSpringBootConfig'
 include 'SpringBootRunnableJAR'
 include 'SpringBootUniversal'
+include 'SpringBootMinimalWAR'
 
